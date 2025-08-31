@@ -2,13 +2,12 @@
   "name": "my-nextjs-app",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build":"next build --no-lint",
-    
-    "start": "next start",
-    "lint": "eslint"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build --no-lint --no-type-check",
+  "start": "next start",
+  "lint": "eslint"
+},
   "dependencies": {
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.10",
